@@ -36,21 +36,11 @@ body {
     float: left;
 }
 
-#exit {
-    clear: left;
-    height: 10%;
-    width: auto;
-}
-
 p {
     margin: 0;
     height: 50%;
     width: auto;
     animation: left-to-right 7s ease-in-out forwards infinite alternate;
-}
-
-#exit:hover p {
-    animation-play-state: paused;
 }
 
 /* ANIMATIONS*/
